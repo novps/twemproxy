@@ -10,6 +10,7 @@ pool:
   hash: ${HASH}
   distribution: ${DISTRIBUTION}
   redis: true
+  redis_auth: ${REDIS_AUTH}
   auto_eject_hosts: ${AUTO_EJECT_HOSTS}
   timeout: ${TIMEOUT}
   server_retry_timeout: ${SERVER_RETRY_TIMEOUT}
